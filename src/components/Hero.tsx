@@ -16,7 +16,9 @@ const Hero = () => {
         <div className="nav">
           <ol>
             <li>
-              <a className="clink">home</a>
+              <a className="clink" href="#">
+                home
+              </a>
             </li>
             <li>
               <a className="clink" href="projects.html">
@@ -28,10 +30,10 @@ const Hero = () => {
       </nav>
       <div className="hero">
         <div className="name">
-          <span className="ifo">I'am</span>{" "}
+          <span className="ifo">I&#39;am</span>{" "}
           <span className="n">Nahid Hasan</span>
         </div>
-        <div className="sub">
+        <div className="sub select-none">
           make <span className="hi">thing</span> real on
           <span className="hi"> internet</span>
         </div>

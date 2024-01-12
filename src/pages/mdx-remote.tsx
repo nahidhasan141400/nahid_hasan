@@ -26,6 +26,7 @@ export async function getStaticProps() {
   );
   const mdxText = await res.text();
   const mdxSource = await serialize(mdxText, {
+    // @ts-ignore
     mdxOptions: { rehypePlugins: [rehypeHighlight] },
   });
   return { props: { mdxSource } };
